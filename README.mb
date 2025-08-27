@@ -1,0 +1,57 @@
+RBX Username Suite
+
+A tiny Windows app that helps you find short, available Roblox usernames.
+It has two search modes and a button to quickly grab a CSRF token for testing.
+
+Made by daxk.
+
+Download & Run
+
+Go to the Releases on this repo and download RBX-Username-Suite.exe.
+
+Double-click to open. No install, no Python needed.
+
+If Windows SmartScreen shows up, click More info → Run anyway (it’s just an unsigned indie app).
+
+Works on Windows 10/11 (64-bit). Needs internet.
+
+What it can do
+
+Finder Fast (random) – Tries lots of random names (digits can be anywhere). Usually the quickest way to find something free.
+
+Finder (ordered) – Tries names in order, starting from the shortest length.
+
+Get CSRF Token – Just a quick test to fetch an X-CSRF-TOKEN from Roblox (handy if you’re seeing 403s).
+
+All checks go to the official endpoint:
+https://auth.roblox.com/v1/usernames/validate
+
+Quick guide
+
+Open the app.
+
+Pick Finder Fast (recommended):
+
+Set target lengths, e.g. 4,5.
+
+Set Required digits to 1-2 (digits anywhere tends to be freer).
+
+Press Start and wait. A popup will show if a name is free.
+If Fast doesn’t find one, try Finder (ordered) with a couple of lengths.
+
+Tip: Roblox allows 3+ characters, but 3 is almost always taken. Try 4–5 with 1–2 digits.
+Troubleshooting
+
+Nothing happens when I open it
+Your antivirus/SmartScreen might be blocking it. Allow it, or right-click → Run anyway.
+
+Keeps saying “Too Many Requests (429)”
+Increase the delay/backoff in the settings and try again later.
+
+403 issues
+Open Get CSRF Token first, then try again.
+
+Privacy / Notes
+
+No login needed. The app only checks username availability.
+It doesn’t save or upload your data.
