@@ -1,0 +1,85 @@
+# 🔫 Roblox Username Finder Suite
+
+**A lightweight Windows tool to search for short and available Roblox usernames.**  
+No login, no Python — just a fast, simple desktop app for username hunters.
+
+---
+
+## 🚀 Features
+
+- **Finder Fast (Random Mode)**  
+  Quickly checks random usernames with optional digits anywhere in the name.  
+  → Fastest way to find something available.
+
+- **Finder (Ordered Mode)**  
+  Sequentially scans usernames by length.  
+  → Good for targeted, predictable name patterns.
+
+- **Get CSRF Token Utility**  
+  Instantly fetches a valid **X-CSRF-TOKEN** from Roblox API —  
+  useful when testing requests or debugging 403 issues.
+
+All username checks use Roblox’s official validation endpoint:  
+`https://auth.roblox.com/v1/usernames/validate`
+
+---
+
+## 🖥️ Download & Run
+
+1. Go to the **[Releases](../../releases)** tab and download  
+   **`RBX-Username-Suite.exe`**  
+2. Double-click to open — no installation or Python required.  
+3. If SmartScreen appears:  
+   → Click **More info → Run anyway** (it’s just unsigned).  
+
+✅ Works on **Windows 10/11 (64-bit)**  
+🌐 Requires an internet connection.
+
+---
+
+## ⚙️ Quick Start
+
+1. Open the app.  
+2. Select **Finder Fast** *(recommended)*.  
+3. Set your target name lengths (e.g., `4, 5`).  
+4. Set **Required digits** to `1–2`.  
+5. Click **Start** — a popup will appear if an available name is found.
+
+💡 Tip:  
+Roblox usernames must be **3+ characters**,  
+but 3-letter names are almost always taken.  
+Try **4–5** characters with **1–2 digits** for best results.
+
+---
+
+## 🧩 Troubleshooting
+
+**🕒 Nothing happens when opening:**  
+Antivirus or SmartScreen may block it. Right-click → “Run anyway”.
+
+**🚫 Too Many Requests (429):**  
+You’re hitting the rate limit. Increase delay/backoff in settings.
+
+**❌ 403 Forbidden:**  
+Click **Get CSRF Token** first, then retry.
+
+---
+
+## 🔒 Privacy
+
+- No login or credentials required.  
+- No data is saved, uploaded, or shared.  
+- 100% uses Roblox’s public validation endpoint.
+
+---
+
+## 👤 Credits
+
+Made with ❤️ by **daxk**
+
+---
+
+## 🧰 License
+
+This project is provided *as-is*, for educational and testing purposes only.  
+Roblox™ and all related assets are trademarks of Roblox Corporation.
