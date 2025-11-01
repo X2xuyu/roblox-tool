@@ -1,11 +1,14 @@
-RBX Username Suite
+# Roblox Username 🔫
 
-A tiny Windows app that helps you find short, available Roblox usernames.
+**A tiny Windows app that helps you find short, available Roblox usernames.**
 It has two search modes and a button to quickly grab a CSRF token for testing.
 
-Made by daxk.
+---
 
-Download & Run
+## Made by daxk.
+
+---
+# Download & Run
 
 Go to the Releases on this repo and download RBX-Username-Suite.exe.
 
@@ -54,4 +57,5 @@ Open Get CSRF Token first, then try again.
 Privacy / Notes
 
 No login needed. The app only checks username availability.
+
 It doesn’t save or upload your data.
