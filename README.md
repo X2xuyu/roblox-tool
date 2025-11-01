@@ -63,6 +63,5 @@ Try **4–5 characters** with **1–2 digits** for best results.
 
 ---
 
-## 👤 Credits
-
-Made with ❤️ by **daxk**
+## 👤 dev
+Made with in **daxk** 🤑🤑🤑
