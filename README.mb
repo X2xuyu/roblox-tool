@@ -8,6 +8,8 @@ It has two search modes and a button to quickly grab a CSRF token for testing.
 ## Made by daxk.
 
 ---
+
+
 # Download & Run
 
 Go to the Releases on this repo and download RBX-Username-Suite.exe.
@@ -59,3 +61,4 @@ Privacy / Notes
 No login needed. The app only checks username availability.
 
 It doesn’t save or upload your data.
+---
